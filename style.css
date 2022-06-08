@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(10, 0, 84);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Veggies-Chop.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: -140px;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    margin-bottom: -20px;
+}
+hr {
+    width: 96%;
+}
+.flexnav {
+    
+    display: flex;
+    margin-bottom: -15px;
+    
+    
+}
+.nav {
+    flex: 30%;
+    margin: auto 0;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+}
+.nav p {
+    margin-left: 30px;
+}
+.nava {
+    flex: 70%;
+    margin: auto 20px;
+    text-align: right;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    
+}
+
+.right {
+    margin: 0 10px;
+}
+
+.hr hr{
+    width: 550px;
+    margin-top: -40px;
+    margin-bottom: -20px;
+    
+}
+.margintitle {
+    color: white;
+    display:flex;
+    margin-top: 100px;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.undertitle {
+    color: white;
+    display:flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 261px;
+    
+}
+
+.undertitle p {
+    text-align: center;
+}
+
+
+.parent1 {
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+}
+.image1 img {
+    
+    width: 105%;
+    height: 100%;
+    
+    margin-left: -10px;
+    
+}
+
+.content1 {
+    background-color: black;
+    color: whitesmoke;
+    padding: 0 25.15%;  
+    margin-right: -6px;
+    
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    
+}
+.image2 img {
+    
+    width: 103%;
+    height: 100%;
+    
+    margin-left: -10px;
+    
+}
+
+.content2 {
+    background-color: black;
+    color: whitesmoke;
+    padding: 0 25.15%;  
+    margin-left: -10px;
+    margin-top: -5px;
+    
+}
+
+.parent3 {
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+}
+.image3 img {
+    
+    width: 105%;
+    height: 100%;
+    
+    margin-left: -10px;
+    
+}
+
+.content3 {
+    background-color: rgb(28, 28, 28);
+    color: whitesmoke;
+    padding: 0 25.15%;  
+    margin-right: -6px;
+    
+}
+
+.ctitle {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.ctext {
+    font-size: 20px;
+}
+
